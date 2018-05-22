@@ -48,7 +48,7 @@ LABEL maintainer="ppabc (ppabc@qq.com)"
        rm -rf /var/cache/apk/* ; \
        rm -rf /etc/logrotate.d/acpid ; \
        cp -R /usr/share/zoneinfo/Asia/Shanghai /etc/localtime ; \
-       echo 'America/Vancouver' > /etc/timezone ; \
+       echo 'Asia/Shanghai' > /etc/timezone ; \
        echo '%zabbix ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers ; \
 
 ### S6 Installation
