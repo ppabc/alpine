@@ -6,7 +6,7 @@ LABEL maintainer="ppabc (ppabc@qq.com)"
     ENV DEBUG_MODE=FALSE \
         ENABLE_CRON=TRUE \
         ENABLE_SMTP=TRUE \
-        ENABLE_ZABBIX=TRUE
+        ENABLE_ZABBIX=FALSE
 
 ### Add Zabbix User First
     RUN set -x ; \
